@@ -24,7 +24,9 @@ def getGeoStudioVersion():
   """
   Test if PyGeoStudio is able to launch GeoStudio. GeoStudio executables should be on the system path.
   By default, the path ``C:\Program Files\Seequent\GeoStudio 20XX,Y`` are appended, so it directly finds the lastest GeoStudio version if not found in system path.
-  """mmon_path = [
+  """
+  common_path = [
+    "C:/Program Files/Seequent/GeoStudio 2025.2/Bin/",
     "C:/Program Files/Seequent/GeoStudio 2024.2/Bin/",
     "C:/Program Files/Seequent/GeoStudio 2024.1/Bin/",
     "C:/Program Files/Seequent/GeoStudio 2023.1/Bin/",
